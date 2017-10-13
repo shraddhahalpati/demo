@@ -1,0 +1,84 @@
+<!doctype html>  
+<html>  
+<head>  
+<title>Register</title>  
+    <style>   
+        body{  
+    margin-top: 100px;  
+    margin-bottom: 100px;  
+    margin-right:200px;  
+	margin-left: 200px;  
+	background-color: #DDDCDC;  
+	color: black;     
+	font-family: verdana;  
+	font-size: 100%; 
+      
+        }  
+            h1 {  
+    color: indigo;  
+    font-family: verdana;  
+    font-size: 100%;  
+}  
+         h2 {  
+    color: indigo;  
+    font-family: verdana;  
+    font-size: 100%;  
+}
+	echo{
+		font-color: red;;
+	}
+</style>  
+</head>  
+<body>  
+   <center><p><a href="register.html">Register</a> | <a href="login.html">Login</a></p></center>
+    <center><h2>Registration Form</h2></center>  
+	<center>
+		<form action="register.php" method="POST">
+			<table border='0px' cellspacing='20px' cellpadding='10px' align='center'>
+			<tr>
+				<td align='center' colspan=2>Personal Information</td>
+			</tr>
+			<tr>
+				<td>First Name: </td>
+				<td><input type="text" name="firstname"></td>
+			</tr>
+			<tr>
+				<td>Last Name: </td>
+				<td><input type="text" name="lastname"></td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td><input type="text" name="email"></td>
+			</tr>
+			<tr>
+				<td>Address:</td>
+				<td><input type="text" name="address"></td>
+			</tr>
+			<tr>
+				<td>Username:</td>
+				<td><input type="text" name="username"></td>
+			</tr>
+			<tr>
+				<td>Password:</td>
+				<td><input type="password" name="pwd"></td>
+			</tr>
+			<tr>
+				<td>Birth Date:</td>
+				<td><input type="date" name="d_o_b"></td>
+			</tr>
+			<tr>
+				<td>Contact Information:</td>
+				<td><input type="text" name="contact_no"></td>
+			</tr>
+			<tr>
+				<td>Profile Picture:</td>
+				<td> <input type="file" name="photo"></td>
+			</tr>
+			<tr>   
+				<td colspan='2' align='center'><input type="submit" value="Register" name="submit">&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="Reset" name="reset"></td>
+			<tr>
+			</table>
+		</form>
+	</center> 
+</body>  
+</html>   
