@@ -64,7 +64,7 @@ class User{
       
         if($result){ 
             echo 'Account Successfully Updated';
-            header("location:profile.php");
+            header("location:profile_edit.php");
             echo mysqli_affected_rows($result).' rows updated successfully.';
         }else {  
             echo "<h3 style='color: red;'>Please try again!";  

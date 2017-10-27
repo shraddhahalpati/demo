@@ -7,8 +7,9 @@ if(!isset($_SESSION["sess_user"])){
 <!doctype html>  
 <html>  
 <head>  
-<title>Profile</title>  
-<style>   
+<title>Profile</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<!-- <style>   
     body{          
 		margin-right:200px;  
 		margin-left: 80px;  
@@ -64,18 +65,13 @@ if(!isset($_SESSION["sess_user"])){
 		min-height: 700px;
 	}
 	
-	.page{
-		position: relative;
-		min-width: 1330px;
-		min-height: 800px;
-		
-	}
-</style>  
+	
+</style> -->  
 </head>
   
 <body>
 <form action="profile.php" method="POST">
-<div class="page" style="align: center; margin-left: 110px;">
+
 <div class="header">    
 <h2><div class="lhs" style='padding: 5px;'><a href='profile.php' style='text-decoration: none;'><table><tr><td><img src="user-icon-32327.png" width="50px" height="50px"></td><td><i><?=$_SESSION['sess_user'];?></i></td></tr></table></a></div>
 <div class="rhs"><a href="logout.php">Logout</a></div></h2>  
@@ -97,7 +93,6 @@ if(!isset($_SESSION["sess_user"])){
 
     <td align='center'><?=$row['firstname']?></td><td align='center'><?=$row['lastname']?></td><td align='center'><?=$row['email']?></td><td align='center'><?=$row['contact_no']?></td><td><img src="<?=$row['photo']?>" width="75px" height="100px" /><td align="center"><a href="profile_edit.php"><img src="edit1.png" style="width:25px"/>
     </a></td></tr></table>
-</div>
 </div>
 </form>
 </body>  

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 27, 2017 at 09:15 AM
+-- Generation Time: Oct 27, 2017 at 02:39 PM
 -- Server version: 10.1.26-MariaDB
 -- PHP Version: 7.1.9
 
@@ -47,8 +47,8 @@ CREATE TABLE `login` (
 --
 
 INSERT INTO `login` (`user_id`, `firstname`, `lastname`, `email`, `address`, `username`, `pwd`, `d_o_b`, `contact_no`, `photo`, `user_type`) VALUES
-(1, 'Shraddha', 'Halpati', 'shraddha.halpati@motifworks.com', '152-Shaniwar Peth,Ekbote Wada,Pune-30', 'shraddhahalpati', 'shraddha', '1992-10-28', '9637847887', 'IMG_2250.JPG', 'admin'),
-(2, 'Shraddha', 'Halpati', 'shraddhahalpati@gmail.com', 'Flat No. AB-305, DSK Vishwa, Dhayari ,Pune-411041', 'shraddha', 'shraddha', '1992-10-28', '9422322137', 'IMG_2250.JPG', 'admin'),
+(1, 'Shraddha', 'Halpati', 'shraddha.halpati@motifworks.com', '152-Shaniwar Peth,Ekbote Wada,Pune-30', 'shraddhahalpati', 'shraddha', '1992-10-28', '9637847887', 'ballon-ballon-color-ballons-balloons-blue-cloud-Favim.com-71243.jpg', 'admin'),
+(2, 'Shraddha', 'Halpati', 'shraddhahalpati@gmail.com', '152-Shaniwar Peth', 'shraddha', 'shraddha', '1992-10-28', '333333333333333333333', 'download (2).jpg', 'admin'),
 (5, 'Deepika', 'Jagtap', 'deepikajagtap@gmail.com', 'Nana Peth', 'deepikajagtap', 'deepika', '1992-08-17', '9545659078', 'download.jpg', 'customer'),
 (9, 'Siddhi', 'Bakshi', 'siddhibakshi@gmail.com', 'Swapnanagari Soc., Akurdi', 'siddhi', 'siddhi', '1992-01-27', '7875049088', 'download.jpg', 'customer'),
 (10, 'Sayali', 'Bakshi', 'sayali.bakshi@gmail.com', 'Dhayari', 'sayali', 'sayali', '1992-07-05', '9865231245', 'download.jpg', 'customer'),
